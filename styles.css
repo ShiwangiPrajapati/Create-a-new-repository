@@ -1,0 +1,203 @@
+/* Reset default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Font for body */
+    line-height: 1.6;
+    /* Improved line height for readability */
+    background-color: #f4f4f4;
+    /* Light background color */
+    color: #333;
+    /* Dark text color for contrast */
+}
+
+
+/* Header Styles */
+
+header {
+    background: #4a2c2c;
+    /* Dark coffee color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    /* Decorative font for the title */
+    font-size: 2.5rem;
+    /* Larger font size for the title */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    /* Space between menu items */
+}
+
+nav ul li a {
+    color: white;
+    /* White text color for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: 600;
+    /* Bold font for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Underline on hover for clarity */
+}
+
+
+/* Main Content Styles */
+
+main {
+    padding: 20px;
+}
+
+
+/* Intro Section Styles */
+
+.intro {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    /* Larger font size for the heading */
+}
+
+.intro p {
+    font-size: 1.2rem;
+    /* Medium font size for the paragraph */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    /* Highlight color */
+    color: #4a2c2c;
+    /* Dark coffee color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transitions */
+}
+
+.cta-button:hover {
+    background-color: #4a2c2c;
+    /* Change to dark on hover */
+    color: #ffcc00;
+    /* Change text color on hover */
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+
+
+/* Image Gallery Styles */
+
+.image-gallery {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    /* Using grid layout for images */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* Responsive columns */
+    gap: 15px;
+    /* Space between images */
+}
+
+.gallery-image {
+    width: 100%;
+    /* Full width for responsive images */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    /* Animation effect */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+
+
+/* Form Styles */
+
+form {
+    max-width: 500px;
+    /* Limit form width */
+    margin: 0 auto;
+    /* Center the form */
+    background: white;
+    /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    /* Block display for labels */
+    margin: 10px 0 5px;
+    /* Margin for labels */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    /* Full width for inputs */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    /* Light border */
+}
+
+form button {
+    background: #4a2c2c;
+    /* Coffee color */
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth transitions */
+}
+
+form button:hover {
+    background: #ffcc00;
+    /* Highlight color on hover */
+}
+
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #4a2c2c;
+    /* Dark coffee color */
+    color: white;
+}
